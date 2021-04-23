@@ -1,8 +1,23 @@
 body {
   background-color: purple;
-  color: red;
 }
-
-body .col-12 {
+body h1 {
   text-align: center;
+  color: yellow;
+  font-size: 50px;
+}
+body p {
+  color: yellow;
+}
+body .button-container {
+  text-align: center;
+}
+body .button-container button {
+  padding: 10px;
+  background-color: yellow;
+}
+body .hello-world {
+  text-align: center;
+  font-size: 50px;
+  color: yellow;
 }

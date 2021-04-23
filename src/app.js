@@ -1,5 +1,9 @@
 function init(){
-  console.log('Hello world');
+  $('#button').click(send);
+  console.log('ciao');
 }
 
-init();
+function send(){
+$('#text').text('Hello world')
+}
+$(document).ready(init)

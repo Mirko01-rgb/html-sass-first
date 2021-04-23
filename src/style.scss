@@ -1,9 +1,27 @@
+$color: yellow;
+
 body {
   background-color: purple;
-  color: red;
+  h1{
+    text-align: center;
+    color: $color;
+    font-size: 50px;
+  }
+  p{
+    color: $color ;
+  }
+  .button-container{
+    text-align: center;
+    button{
+      padding: 10px;
+      background-color: $color;
 
-}
+    }
+  }
+  .hello-world{
+    text-align: center;
+    font-size: 50px;
+    color: $color;
+  }
 
-body .col-12{
-  text-align: center;
 }
